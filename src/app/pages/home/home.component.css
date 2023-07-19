@@ -1,0 +1,92 @@
+.Principal {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url("https://www.tuexperto.com/wp-content/uploads/2022/01/paginas-descargar-fondos-de-pantalla.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+  }
+  
+  .exit-button {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .exit-button:hover {
+    background-color: #d40505;
+    color: #ffffff;
+  }
+  
+  .datos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+  }
+  
+  .post {
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .post img {
+    display: block;
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 200px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .post h2 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .post p {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .datos {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .exit-button {
+      margin-top: 10px;
+    }
+  }  
